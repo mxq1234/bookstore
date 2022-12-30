@@ -1,0 +1,29 @@
+.account_info {
+    width: 1000px;
+    height: 480px;
+    background-color: #fff4e8;
+    margin-top: 10px;
+}
+
+.account_info2 {
+    width: 1000px;
+    height: 80px;
+    background-color: #fff4e8;
+    margin-top: 10px;
+}
+
+.account_warp {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.account_butt {
+    width: 50px;
+    height: 25px;
+    background-color: #C91623;
+    border: 0px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+}

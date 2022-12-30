@@ -1,0 +1,191 @@
+.title_cart {
+    left: 140px;
+    top: 70px;
+    height: 20px;
+}
+
+.title_cart h3 {
+    float: left;
+    font-size: 23px;
+    color: #c91623;
+    line-height: 20px;
+}
+
+.title_cart div {
+    float: right;
+    font-size: 14px;
+    color: gray;
+}
+
+.warp_cart {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.warp_cart ul li {
+    list-style: none;
+}
+
+
+/*显示菜单的开始*/
+
+.tips {
+    width: 1000px;
+    height: 50px;
+    background-color: #f1f1f1;
+    margin-top: 30px;
+    border: 1px solid #e9e9e9;
+}
+
+.tips li {
+    float: left;
+    line-height: 50px;
+    font-size: 12px;
+    color: gray;
+}
+
+.tips li:nth-child(1) {
+    width: 90px;
+    margin-left: 3px;
+}
+
+.tips li:nth-child(2) {
+    margin-left: 130px;
+}
+
+.tips li:nth-child(3) {
+    margin-left: 552px;
+}
+
+.tips li:nth-child(4) {
+    margin-left: 50px;
+}
+
+.tips li:nth-child(5) {
+    margin-left: 58px;
+}
+
+
+/*显示菜单的结束*/
+
+
+/*商品详情展示开始*/
+
+.info_cart {
+    width: 1000px;
+    height: 125px;
+    background-color: #fff4e8;
+    margin-top: 2px;
+}
+
+.info_cart li {
+    float: left;
+    margin-top: 20px;
+}
+
+.info_cart a {
+    font-size: 12px;
+    color: #333333;
+}
+
+.info_1 {
+    margin-left: 23px;
+}
+
+.info_2 {
+    margin-left: 15px;
+    width: 567px;
+}
+
+.info_3 {
+    width: 55px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.info_4 {
+    margin-left: 10px;
+    width: 55px;
+}
+
+.info_5 {
+    margin-left: 20px;
+    width: 42px;
+    font-size: 15px;
+    color: #C91623;
+    font-weight: bold;
+}
+
+.post_select {
+    position: relative;
+    margin-top: 10px;
+}
+
+.post_question {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.post_add {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 950px;
+    height: 30px;
+}
+
+.add_select {
+    width: 120px;
+}
+
+
+/*商品详情展示结束*/
+
+.balance {
+    width: 1000px;
+    height: 50px;
+    border: 1px solid gray;
+    margin-top: 30px;
+}
+
+.balance_ul1,
+.balance_ul1>li,
+.balance_ul2>li {
+    float: left;
+    line-height: 50px;
+    margin-left: 14px;
+    margin-top: 0px;
+}
+
+.balance_ul2 {
+    float: right;
+    margin-top: 0px;
+}
+
+.butt {
+    width: 100px;
+    height: 50px;
+    background-color: #C91623;
+    border: 0px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.balance span {
+    font-size: 25px;
+    color: #C91623;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.balance_ul2 li:nth-child(1) {
+    width: 120px;
+}
+
+.balance_ul2 li:nth-child(2) {
+    width: 250px;
+}

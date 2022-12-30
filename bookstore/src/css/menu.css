@@ -1,0 +1,108 @@
+.menu {
+    top: 0;
+    background: #337fed;
+    margin: 0 auto;
+    border-bottom: solid 3px #2b2a28;
+    display: flex;
+}
+
+.logo-icon {
+    float: left;
+}
+
+.img-logo {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 150px;
+    height: 55px;
+    float: left;
+    display: inline;
+}
+
+.menu ul {
+    padding: 15px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    background: #666;
+    margin: 0 auto;
+    width: 1000px;
+    background: #337fed;
+    overflow: hidden;
+}
+
+.menu ul li {
+    color: #fff;
+    list-style: none;
+    float: left;
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+.menu ul li a {
+    color: #eee;
+    text-decoration: none;
+    padding: 32px 23px;
+    cursor: pointer;
+    border-top: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.linkz ul li a:hover {
+    color: #ccc;
+}
+
+.menu ul li a.home {
+    background: url(../images/home.png) no-repeat top center;
+    border-right: dotted 1px #5a5957;
+    border-left: dotted 1px #5a5957;
+}
+
+.menu ul li a.myOrder {
+    background: url(../images/wish_list.png) no-repeat top center;
+    border-right: dotted 1px #5a5957;
+}
+
+.menu ul li a.account {
+    background: url(../images/account.png) no-repeat top center;
+    border-right: dotted 1px #5a5957;
+}
+
+.menu ul li a.cart {
+    background: url(../images/cart.png) no-repeat top center;
+    border-right: dotted 1px #5a5957;
+}
+
+.menu ul li a.checkout {
+    background: url(../images/checkout.png) no-repeat top center;
+    border-right: dotted 1px #5a5957;
+}
+
+.menu ul li a.login {
+    background: url(../images/login.png) no-repeat top center;
+    border-right: dotted 1px #5a5957;
+    border-left: dotted 1px #5a5957;
+}
+
+.menu ul li a.register {
+    background: url(../images/register.png) no-repeat top center;
+    border-right: dotted 1px #5a5957;
+    border-left: dotted 1px #5a5957;
+}
+
+.menu ul li a.home:hover,
+.menu ul li a.myOrder:hover,
+.menu ul li a.account:hover,
+.menu ul li a.cart:hover,
+.menu ul li a.checkout:hover,
+.menu ul li a.login:hover,
+.menu ul li a.register:hover {
+    color: #ccc;
+    background-color: #333;
+}
+
+.menu ul li.active a {
+    color: #fff;
+    background-color: #e83d02;
+}

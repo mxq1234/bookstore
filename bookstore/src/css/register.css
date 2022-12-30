@@ -1,0 +1,23 @@
+.register_info {
+    width: 1000px;
+    height: 480px;
+    background-color: #fff4e8;
+    margin-top: 10px;
+}
+
+.register_warp {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.register_butt {
+    width: 50px;
+    height: 25px;
+    background-color: #C91623;
+    border: 0px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+}
